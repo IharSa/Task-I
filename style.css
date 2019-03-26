@@ -1,0 +1,32 @@
+body {
+    background-color: aquamarine;
+}
+div.one {
+    border-width: 5px;
+    background: #fc3; /* Цвет фона */
+    border: 5px solid black;  /* Параметры рамки */
+    padding: 8px; /* Поля вокруг текста */
+}
+.row {
+    overflow: hidden; /* Отменяем обтекание */
+    margin-bottom: 4px;/*отступ снизу */
+   }
+   .sidebar, .content, .inpur {
+    float: left; /* Формируем колонки */
+    box-sizing: border-box; /* padding не влияет на ширину */
+    padding: 10px; /* Поля вокруг текста */
+    min-height: 100px; /* Минимальная высота */
+   }
+   .sidebar {
+    width: 33%; /* Ширина колонки */
+    background: #ffead0; /* Цвет фона */
+   }
+   .content {
+    width: 33%; /* Ширина колонки */
+    background: #c8eaf5; /* Цвет фона */
+   .inpur {
+width: 33%;
+background:  #ffccf2;
+
+   }
+ 
